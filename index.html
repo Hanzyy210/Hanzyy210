@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Store</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Featured Products</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="product1.jpg" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>Rp.10.000</p>
+                <button onclick="viewProduct('Product 1')">View Details</button>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>$15.00</p>
+                <button onclick="viewProduct('Product 2')">View Details</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Store. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
